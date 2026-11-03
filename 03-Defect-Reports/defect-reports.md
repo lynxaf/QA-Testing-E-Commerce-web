@@ -17,7 +17,7 @@ Setiap laporan *bug* yang ditemukan saat pengujian harus mencakup informasi beri
 
 ---
 
-## 2. Laporan Bug (Sample Defect Log)
+## 2. Laporan Bug
 
 ### 🔴 BUG-ELEC-01: Harga Varian Produk Tidak Berubah Saat Dipilih
 * **Modul:** Katalog & Varian Produk
