@@ -7,7 +7,7 @@
 ---
 
 ## 1. Pendahuluan (Introduction)
-Dokumen Test Plan ini dirancang untuk memvalidasi fungsionalitas, akurasi data inventaris, sistem perhitungan logistik, dan keandalan transaksi pada platform e-commerce penjualan produk elektronik (ponsel, headset, dan desktop).
+Dokumen Test Plan ini dirancang untuk memvalidasi fungsionalitas, akurasi data inventaris, sistem perhitungan logistik, dan keandalan transaksi pada platform e-commerce penjualan produk elektronik (ponsel, headset, dan desktop dsb).
 
 ## 2. Ruang Lingkup Pengujian (Scope of Testing)
 
