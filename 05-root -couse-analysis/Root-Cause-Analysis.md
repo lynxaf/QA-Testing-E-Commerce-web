@@ -2,7 +2,6 @@
 
 ## Project Information
 * **Project:** E-Commerce Web Application (Electronic Store)
-* **Project Type:** Simulated QA Portfolio Project
 * **Analysis Method:** 5 Whys & Defect Pattern Analysis
 * **Related Defects:** DEF-001, DEF-002, DEF-003, DEF-004
 
