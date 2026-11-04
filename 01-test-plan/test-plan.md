@@ -1,5 +1,5 @@
 # SOFTWARE TEST PLAN
-**Proyek:** Website E-Commerce Penjualan Produk Elektronik (Belanja) 
+**Proyek:** Website E-Commerce Penjualan Produk Elektronik (Belanja)  
 **Tanggal:** November 2026  
 **Penulis:** Quality Assurance Team  
 
@@ -48,6 +48,10 @@ b. Manajemen Produk (CRUD Produk):
 ### Yang Diuji (In-Scope):
 
 #### A. Halaman Pelanggan (Storefront & Customer Side):
+
+* **Halaman Login:**
+  * Pengujian login menggunakan data dummy dengan Positive Case
+  * Pengujian login menggunakan data dummy dengan Negative Case
 * **Katalog & Varian Produk Elektronik:** 
   * Pengujian filter spesifikasi (merek, rentang harga, kapasitas RAM/penyimpanan, jenis garansi).
   * Pemilihan varian produk (seperti warna dan spesifikasi) yang memengaruhi perubahan harga dan ketersediaan stok secara dinamis.
