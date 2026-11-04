@@ -1,5 +1,5 @@
 # SOFTWARE TEST PLAN
-**Proyek:** Website E-Commerce Penjualan Produk Elektronik  
+**Proyek:** Website E-Commerce Penjualan Produk Elektronik (Belanja)
 **Dokumen Versi:** 2.1  
 **Tanggal:** November 2026  
 **Penulis:** Quality Assurance Team  
@@ -9,7 +9,42 @@
 ## 1. Pendahuluan (Introduction)
 Dokumen Test Plan ini dirancang untuk memvalidasi fungsionalitas, akurasi data inventaris, sistem perhitungan logistik, keandalan transaksi pada storefront pelanggan, serta manajemen operasional pada Halaman Admin (Admin Dashboard) e-commerce produk elektronik.
 
-## 2. Ruang Lingkup Pengujian (Scope of Testing)
+## 2. Tujuan
+Tujuan pengujian ini adalah mendefinisikan pendekatan pengujian untuk website E-Commerce penjualan produk elektronik. Pengujian berfokus pada fungsi utama aplikasi agar aplikasi dapat beroperasi seperti yang diharapkan.Pengujian memastikan bahwa pengguna dapat bertransaksi tanpa mengalami kesalahan kegunaan sistem.  
+
+## 3. Gambaran Umum Aplikasi
+Website Belanja ini adalah website penjualan produk elektronik yang dirancang untuk penjualan berbagai produk elektronik dan brand yang memberikan kualitas unggul. Aplikasi ini menggunakan 2 user, yakni yang pertama adalah user superadmin dan yang kedua adalah user pelanggan.
+
+Fungsi utama aplikasi meliputi sebagai berikut :
+## Sisi Pengguna / Pelanggan (Customer Journey)
+a. Autentikasi Pengguna (Sign Up & Sign In)
+- Pendaftaran Akun (Sign Up): Memungkinkan pengguna baru membuat akun dengan memasukkan data kredensial.
+- Masuk (Sign In): Memungkinkan pengguna yang sudah terdaftar untuk masuk ke dalam sistem menggunakan akun mereka.
+- Navigasi & Pencarian Katalog Produk (Shop & Categories)
+- Katalog Beranda: Menampilkan produk populer, rekomendasi produk pilihan (Most Picked Quality Products), dan rilis terbaru (New Releases).
+-Filter Kategori: Memungkinkan pengguna menyaring produk berdasarkan kategori spesifik seperti Phones, Headsets, Desktops, Games, Essentials, Lights, Watches, dan Awards.
+-Detail Produk: Melihat informasi lengkap barang (seperti nama produk, harga, deskripsi garansi, dan spesifikasi pendukung).
+
+b. Manajemen Keranjang Belanja & Transaksi (Add to Cart)
+-Tambah ke Keranjang: Memasukkan produk yang dipilih (seperti Mac PC, AirPods, atau Samsung A15) ke dalam keranjang belanja.
+-Proses Pembelian (Checkout): Melanjutkan produk di keranjang menuju tahap pembayaran hingga transaksi selesai.
+
+c. Fitur Tambahan Pengguna
+- Testimoni & Ulasan (Testimonials): Melihat ulasan dan penilaian dari pembeli lain (Jemmie Pemilia, Angga Risky, dll.) untuk referensi produk.
+- Reward & Diskon (Rewards): Menampilkan informasi promo, bonus, atau potongan harga (seperti diskon 25% atau bonus paket tertentu).
+
+## Sisi Pengelola / Admin (Admin Portal)
+a. Autentikasi Admin: Masuk ke dashboard khusus pengelola dengan hak akses (privileges) tataruang sistem.
+
+b. Manajemen Produk (CRUD Produk):
+- Menambah produk baru ke dalam katalog (lengkap dengan nama, kategori, harga, dan gambar/thumbnail).
+- Mengubah atau memperbarui informasi produk dan stok.
+- Menghapus produk yang sudah tidak dijual.
+- Manajemen Kategori & Brand: Mengatur daftar kategori produk (Phones, Desktops, dll.) serta mengelola daftar brand mitra yang muncul di halaman utama.
+- Manajemen Pesanan & Transaksi: Memantau status pesanan yang masuk dari pelanggan, mulai dari status pembayaran hingga proses pengiriman selesai.
+
+  
+## 4. Ruang Lingkup Pengujian (Scope of Testing)
 
 ### Yang Diuji (In-Scope):
 
@@ -44,12 +79,12 @@ Dokumen Test Plan ini dirancang untuk memvalidasi fungsionalitas, akurasi data i
 * Pengujian fisik perangkat keras secara langsung (pengujian murni berfokus pada sistem software e-commerce).
 * Pengujian beban berat (Stress Testing) skala jutaan pengguna secara bersamaan.
 
-## 3. Strategi Pengujian (Test Strategy)
+## 5. Strategi Pengujian (Test Strategy)
 1. **Functional & UI Testing:** Memastikan informasi spesifikasi teknis produk elektronik tampil akurat serta seluruh tombol aksi di storefront dan admin dashboard berfungsi normal.
 2. **Inventory & Concurrency Testing:** Menguji sinkronisasi stok antara perubahan di Admin Dashboard dengan ketersediaan barang di storefront untuk mencegah overselling.
 3. **Integration Testing:** Memastikan integrasi dengan payment gateway, API ongkos kirim, dan sistem pembaruan resi kurir berjalan valid.
 
-## 4. Kriteria Kelayakan (Entry & Exit Criteria)
+## 6. Kriteria Kelayakan (Entry & Exit Criteria)
 
 ### Kriteria Masuk (Entry Criteria):
 * Katalog produk elektronik beserta varian dan stok awal telah dimasukkan ke database.
@@ -61,7 +96,7 @@ Dokumen Test Plan ini dirancang untuk memvalidasi fungsionalitas, akurasi data i
 * Sinkronisasi data antara Admin Dashboard dan Storefront berjalan akurat tanpa penundaan (delay) data stok.
 * Tidak ada bug kritis pada sistem pengurangan stok otomatis, manajemen pesanan, dan status transaksi.
 
-## 5. Sumber Daya & Perangkat Uji (Resources & Environment)
+## 7. Sumber Daya & Perangkat Uji (Resources & Environment)
 * **Perangkat:** Laptop (Windows/Mac) & Smartphone (Responsive Mobile View).
 * **Browser:** Google Chrome, Mozilla Firefox, Microsoft Edge.
 * **Tools Pendukung:** Postman (API Testing), GitHub Issues (Bug Tracking), Browser DevTools.
