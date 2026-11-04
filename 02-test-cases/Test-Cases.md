@@ -6,9 +6,10 @@
 ## Ringkasan Eksekusi Pengujian
 Kasus pengujian di website penjualan produk elektronik ini untuk mengevaluasi fungsi website yang sengaja dirancang untuk menunjukkan pengujian yang berhasil dan yang gagal atau diidentifikasi cacat diringkas di tabel berikut :
 
-## 1. Modul Katalog & Varian Produk Elektronik
+## Pengujian Halaman Pelanggan
+### 1. Modul Katalog & Varian Produk Elektronik
 
-### TC-CAT-01: Memilih Varian Produk (Warna & Kapasitas Memori)
+#### TC-CAT-01: Memilih Varian Produk (Warna & Kapasitas Memori)
 * **Test Scenario:** Memastikan sistem memperbarui harga, ketersediaan stok, dan gambar secara dinamis saat pengguna memilih varian spesifik (Contoh: RAM 8GB/256GB warna Hitam).
 * **Pre-condition:** Pengguna berada di halaman detail produk elektronik (misalnya: Smartphone X).
 * **Test Steps:**
