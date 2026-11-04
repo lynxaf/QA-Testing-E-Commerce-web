@@ -9,7 +9,33 @@ Kasus pengujian di website penjualan produk elektronik ini untuk mengevaluasi fu
 ## Pengujian Halaman Pelanggan
 ### 1. Modul Katalog & Varian Produk Elektronik
 
-#### TC-CAT-01: Memilih Varian Produk (Warna & Kapasitas Memori)
+### TC-CAT-01: Halaman Sign Up (Pendaftaran Pengguna)
+* **Test Scenario:** Memastikan pengguna dapat melakukan sign-up (pendaftaran) dan menggunakan dua case, yakni case positive dan case negative, agar diketahui masing-masing respons sistem.
+* **Test Type:** : Positive   
+* **Pre-Condition:** Pengguna berhasil melakukan pendaftaran kemudian ke halaman login.
+*  **Test Steps:**
+*  1. Buka halaman Sign Up
+*  2. Isi data full name, email, dan password
+*  3. Klik Tombol Create New Account
+*  **Expected Result:**
+*  User diarahkan ke halaman login
+*  User berhasil melakukan login berarti data user sudah terdaftar
+*  **Status:** Lulus
+*  
+*  **Test Type** : Negative
+*  **Pre-Condition:** Pengguna berhasil melakukan pendaftaran kemudian ke halaman login.
+*  **Test Steps:**
+*  1. Buka halaman sign-up
+   2. Isi data full name, email (dengan sintaks email yang salah), dan password kosong
+   3. Klik Tombol Create New Account
+*  **Expected Result:**
+*  User diberikan pesan bahwa email salah dan password wajib diisi
+*  User tidak diarahkan ke halaman login dan data tidak terdaftar di database
+*  **Status:** Gagal
+*  **Related Defect:** DEF-001
+
+
+#### TC-CAT-02: Memilih Varian Produk (Warna & Kapasitas Memori)
 * **Test Scenario:** Memastikan sistem memperbarui harga, ketersediaan stok, dan gambar secara dinamis saat pengguna memilih varian spesifik (Contoh: RAM 8GB/256GB warna Hitam).
 * **Pre-condition:** Pengguna berada di halaman detail produk elektronik (misalnya: Smartphone X).
 * **Test Steps:**
