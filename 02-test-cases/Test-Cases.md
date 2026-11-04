@@ -21,7 +21,7 @@ Kasus pengujian di website penjualan produk elektronik ini untuk mengevaluasi fu
 *  User diarahkan ke halaman login
 *  User berhasil melakukan login berarti data user sudah terdaftar
 *  **Status:** Lulus
-*  
+ 
 *  **Test Type** : Negative
 *  **Pre-Condition:** Pengguna berhasil melakukan pendaftaran kemudian ke halaman login.
 *  **Test Steps:**
