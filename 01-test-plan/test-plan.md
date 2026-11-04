@@ -1,6 +1,5 @@
 # SOFTWARE TEST PLAN
-**Proyek:** Website E-Commerce Penjualan Produk Elektronik (Belanja)
-**Dokumen Versi:** 2.1  
+**Proyek:** Website E-Commerce Penjualan Produk Elektronik (Belanja) 
 **Tanggal:** November 2026  
 **Penulis:** Quality Assurance Team  
 
@@ -15,8 +14,8 @@ Tujuan pengujian ini adalah mendefinisikan pendekatan pengujian untuk website E-
 ## 3. Gambaran Umum Aplikasi
 Website Belanja ini adalah website penjualan produk elektronik yang dirancang untuk penjualan berbagai produk elektronik dan brand yang memberikan kualitas unggul. Aplikasi ini menggunakan 2 user, yakni yang pertama adalah user superadmin dan yang kedua adalah user pelanggan.
 
-Fungsi utama aplikasi meliputi sebagai berikut :
-## Sisi Pengguna / Pelanggan (Customer Journey)
+### Fungsi utama aplikasi meliputi sebagai berikut :
+#### Sisi Pengguna / Pelanggan (Customer Journey)
 a. Autentikasi Pengguna (Sign Up & Sign In)
 - Pendaftaran Akun (Sign Up): Memungkinkan pengguna baru membuat akun dengan memasukkan data kredensial.
 - Masuk (Sign In): Memungkinkan pengguna yang sudah terdaftar untuk masuk ke dalam sistem menggunakan akun mereka.
@@ -33,7 +32,7 @@ c. Fitur Tambahan Pengguna
 - Testimoni & Ulasan (Testimonials): Melihat ulasan dan penilaian dari pembeli lain (Jemmie Pemilia, Angga Risky, dll.) untuk referensi produk.
 - Reward & Diskon (Rewards): Menampilkan informasi promo, bonus, atau potongan harga (seperti diskon 25% atau bonus paket tertentu).
 
-## Sisi Pengelola / Admin (Admin Portal)
+#### Sisi Pengelola / Admin (Admin Portal)
 a. Autentikasi Admin: Masuk ke dashboard khusus pengelola dengan hak akses (privileges) tata ruang sistem.
 
 b. Manajemen Produk (CRUD Produk):
