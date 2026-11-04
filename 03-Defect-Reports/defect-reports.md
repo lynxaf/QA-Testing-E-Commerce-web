@@ -18,8 +18,8 @@ Setiap laporan *bug* yang ditemukan saat pengujian harus mencakup informasi beri
 ---
 
 ## 2. Laporan Bug
-
-### 🔴 BUG-ELEC-01: Harga Varian Produk Tidak Berubah Saat Dipilih
+TC-CAT-01N		Negative	Gagal	
+### 🔴 DEF-001: Halaman Sign Up (Validasi Error Input)
 * **Modul:** Katalog & Varian Produk
 * **Severity:** High
 * **Priority:** P1
