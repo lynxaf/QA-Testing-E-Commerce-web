@@ -2,7 +2,6 @@
 
 ## Project Information
 * **Project:** E-Commerce Web Application (Electronic Store)
-* **Project Type:** Simulated QA Portfolio Project
 * **Testing Method:** Manual Functional and Regression Testing
 * **Environment:** Windows 11 / Google Chrome (Desktop)
 * **Related Defects:** DEF-001, DEF-002, DEF-003, and DEF-004
