@@ -3,6 +3,8 @@
 **Modul Utama:** Katalog, Varian Produk, Keranjang (Cart), & Perhitungan Ongkir  
 
 ---
+## Ringkasan Eksekusi Pengujian
+Kasus pengujian di website penjualan produk elektronik ini untuk mengevaluasi fungsi website yang sengaja dirancang untuk menunjukkan pengujian yang berhasil dan yang gagal atau diidentifikasi cacat diringkas di tabel berikut :
 
 ## 1. Modul Katalog & Varian Produk Elektronik
 
