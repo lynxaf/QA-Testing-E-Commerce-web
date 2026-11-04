@@ -35,7 +35,7 @@ Kasus pengujian di website penjualan produk elektronik ini untuk mengevaluasi fu
 * **Test Scenario:** Memastikan pengguna dapat melakukan sign-up (pendaftaran) dan menggunakan dua case, yakni case positive dan case negative, agar diketahui masing-masing respons sistem.
   
 #### Test Type: Positive   
-* **Pre-Condition:** Pengguna berhasil melakukan pendaftaran kemudian ke halaman login.
+* **Pre-Condition:** Pengguna belum terdaftar di database dan sedang berada di halaman Sign Up.
 *  **Test Steps:**
 *  1. Buka halaman Sign Up
 *  2. Isi data full name, email, dan password
@@ -46,7 +46,7 @@ Kasus pengujian di website penjualan produk elektronik ini untuk mengevaluasi fu
 *  **Status:** Lulus
   
 #### Test Type: Negative
-*  **Pre-Condition:** Pengguna berhasil melakukan pendaftaran kemudian diarahkan ke halaman login.
+*  **Pre-Condition:** Pengguna belum terdaftar di database dan sedang berada di halaman Sign Up.
 *  **Test Steps:**
 *  1. Buka halaman sign-up
    2. Isi data full name, email (dengan sintaks email yang salah), dan password kosong
