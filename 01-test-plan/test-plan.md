@@ -22,19 +22,19 @@ a. Autentikasi Pengguna (Sign Up & Sign In)
 - Masuk (Sign In): Memungkinkan pengguna yang sudah terdaftar untuk masuk ke dalam sistem menggunakan akun mereka.
 - Navigasi & Pencarian Katalog Produk (Shop & Categories)
 - Katalog Beranda: Menampilkan produk populer, rekomendasi produk pilihan (Most Picked Quality Products), dan rilis terbaru (New Releases).
--Filter Kategori: Memungkinkan pengguna menyaring produk berdasarkan kategori spesifik seperti Phones, Headsets, Desktops, Games, Essentials, Lights, Watches, dan Awards.
--Detail Produk: Melihat informasi lengkap barang (seperti nama produk, harga, deskripsi garansi, dan spesifikasi pendukung).
+- Filter Kategori: Memungkinkan pengguna menyaring produk berdasarkan kategori spesifik seperti Phones, Headsets, Desktops, Games, Essentials, Lights, Watches, dan Awards.
+- Detail Produk: Melihat informasi lengkap barang (seperti nama produk, harga, deskripsi garansi, dan spesifikasi pendukung).
 
 b. Manajemen Keranjang Belanja & Transaksi (Add to Cart)
--Tambah ke Keranjang: Memasukkan produk yang dipilih (seperti Mac PC, AirPods, atau Samsung A15) ke dalam keranjang belanja.
--Proses Pembelian (Checkout): Melanjutkan produk di keranjang menuju tahap pembayaran hingga transaksi selesai.
+- Tambah ke Keranjang: Memasukkan produk yang dipilih (seperti Mac PC, AirPods, atau Samsung A15) ke dalam keranjang belanja.
+- Proses Pembelian (Checkout): Melanjutkan produk di keranjang menuju tahap pembayaran hingga transaksi selesai.
 
 c. Fitur Tambahan Pengguna
 - Testimoni & Ulasan (Testimonials): Melihat ulasan dan penilaian dari pembeli lain (Jemmie Pemilia, Angga Risky, dll.) untuk referensi produk.
 - Reward & Diskon (Rewards): Menampilkan informasi promo, bonus, atau potongan harga (seperti diskon 25% atau bonus paket tertentu).
 
 ## Sisi Pengelola / Admin (Admin Portal)
-a. Autentikasi Admin: Masuk ke dashboard khusus pengelola dengan hak akses (privileges) tataruang sistem.
+a. Autentikasi Admin: Masuk ke dashboard khusus pengelola dengan hak akses (privileges) tata ruang sistem.
 
 b. Manajemen Produk (CRUD Produk):
 - Menambah produk baru ke dalam katalog (lengkap dengan nama, kategori, harga, dan gambar/thumbnail).
