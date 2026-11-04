@@ -4,7 +4,29 @@
 
 ---
 ## Ringkasan Eksekusi Pengujian
-Kasus pengujian di website penjualan produk elektronik ini untuk mengevaluasi fungsi website yang sengaja dirancang untuk menunjukkan pengujian yang berhasil dan yang gagal atau diidentifikasi cacat diringkas di tabel berikut :
+
+Kasus pengujian di website penjualan produk elektronik ini untuk mengevaluasi fungsi website yang sengaja dirancang untuk menunjukkan pengujian yang berhasil dan yang gagal atau diidentifikasi cacat diringkas di tabel berikut:
+
+| Test Case ID | Modul / Skenario Pengujian | Test Type | Result | Defect Ref |
+| :--- | :--- | :--- | :--- | :--- |
+| **TC-CAT-01** | Halaman Sign Up (Pendaftaran Pengguna) | Positive | Lulus | - |
+| **TC-CAT-01N** | Halaman Sign Up (Validasi Error Input) | Negative | Gagal | DEF-001 |
+| **TC-CAT-02** | Halaman Sign In (Login Pengguna) | Positive | Lulus | - |
+| **TC-CAT-02N** | Halaman Sign In (Validasi Gagal Login) | Negative | Gagal | DEF-002 |
+| **TC-CAT-04** | Validasi Produk Habis (Out of Stock) | Negative | Gagal | DEF-003 |
+| **TC-CRT-01** | Penambahan Produk ke Keranjang | Positive | Lulus | - |
+| **TC-PAY-01** | Simulasi Pembayaran Sukses (VA / QRIS) | Positive | Gagal | DEF-004 |
+| **TC-ADM-01** | Login Admin Panel | Positive | Lulus | - |
+| **TC-ADM-02** | Manajemen Kategori (Add Category) | Positive | Lulus | - |
+| **TC-ADM-02N** | Validasi Gagal Tambah Kategori | Negative | Lulus | - |
+| **TC-ADM-03** | Manajemen Lokasi / Gudang (Add Location) | Positive | Lulus | - |
+| **TC-ADM-03N** | Validasi Gagal Tambah Lokasi | Negative | Lulus | - |
+| **TC-ADM-04** | Manajemen Merek (Add Brand) | Positive | Lulus | - |
+| **TC-ADM-04N** | Validasi Gagal Tambah Brand | Negative | Lulus | - |
+| **TC-ADM-05** | Manajemen Katalog Produk (Add Product) | Positive | Lulus | - |
+| **TC-ADM-05N** | Validasi Gagal Tambah Produk | Negative | Lulus | - |
+| **TC-ADM-06** | Manajemen Pesanan (Orders Management) | Positive | Lulus | - |
+| **TC-ADM-07** | Manajemen Data Pelanggan (Customers Tracking) | Positive | Lulus | - |
 
 ## Pengujian Halaman Pelanggan
 ### 1. Modul Katalog & Varian Produk Elektronik
@@ -73,8 +95,8 @@ Kasus pengujian di website penjualan produk elektronik ini untuk mengevaluasi fu
   * Harga produk berubah sesuai dengan varian yang dipilih.
   * Gambar produk berubah menyesuaikan warna yang dipilih.
   * Status stok memperlihatkan informasi ketersediaan aktual (misal: "Stok Tersedia: 15 unit").
-  *  **Status:** Gagal
-*  **Related Defect:** DEF-002
+* **Status:** Gagal
+* **Related Defect:** DEF-002
   
 ### TC-CAT-04: Validasi Produk Habis (Out of Stock)
 #### Test Type: Negative
