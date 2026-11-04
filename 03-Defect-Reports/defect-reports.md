@@ -6,7 +6,7 @@
 
 ## 1. Panduan Format Pelaporan Bug (Bug Report Guidelines)
 Setiap laporan *bug* yang ditemukan saat pengujian harus mencakup informasi berikut agar mudah dipahami dan direproduksi oleh *developer*:
-* **Bug ID:** Kode unik (Contoh: `BUG-ELEC-01`)
+* **Bug ID:** Kode unik (Contoh: `DEF-001`)
 * **Judul Bug:** Ringkasan singkat masalah yang terjadi.
 * **Severity (Tingkat Keparahan):** *Critical, High, Medium, Low*.
 * **Priority (Prioritas Perbaikan):** *P1 (High), P2 (Medium), P3 (Low)*.
