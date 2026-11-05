@@ -1,8 +1,4 @@
 # QA-Testing-E-Commerce-web
-# E-Commerce Web Application - SQA Testing Portfolio
-
-
-
 ---
 
 ## Project Overview
